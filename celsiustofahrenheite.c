@@ -5,10 +5,10 @@
 void main() {
     float C, F;
     // clrscr();
-    printf("Enter fahrenheit temperature::  ");
-    scanf("%f", &F);
-    C = (F - 32) * 5 / 9;
-    printf("Your celsius value is = %f\n", C);
+    printf("Enter celsius temperature::  ");
+    scanf("%f", &C);
+    F = (C * 9)/5 +32;
+    printf("Your fahrenheite value is = %f\n", F);
     getch ();
 }
     

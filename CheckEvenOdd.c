@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <conio.h> 
 
 void main() {
 int n ;
+  //clrscr();
   printf("enter the number ");
   scanf("%d",&n);
   if(n%2==0)
@@ -12,4 +14,5 @@ int n ;
   {
     printf("%d the number is odd",n);
   }
+  getch();
 }
