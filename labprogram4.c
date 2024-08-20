@@ -1,4 +1,4 @@
-// convert fahrenheite to celsius temperature 
+// convert celsius to fahrenhite temperature 
 #include <stdio.h>
 #include <conio.h>
 

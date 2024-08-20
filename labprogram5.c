@@ -1,3 +1,4 @@
+//check a number even or odd
 #include <stdio.h>
 #include <conio.h> 
 
