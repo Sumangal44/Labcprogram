@@ -4,7 +4,7 @@
 
 void main() {
     float C, F;
-    // clrscr();
+    clrscr();
     printf("Enter celsius temperature::  ");
     scanf("%f", &C);
     F = (C * 9)/5 +32;

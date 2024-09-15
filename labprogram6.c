@@ -4,7 +4,7 @@
 void main()
 {
     int n ,sum;
-   // clrscr();
+    clrscr();
     printf("Enter the vaule of n:  ");
     scanf("%d",&n);
     sum=n*(n+1)/2;

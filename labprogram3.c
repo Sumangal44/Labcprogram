@@ -4,7 +4,7 @@
 
 void main() {
     float C, F;
-    // clrscr();
+    clrscr();
     printf("Enter fahrenheit temperature::  ");
     scanf("%f", &F);
     C = (F - 32) * 5 / 9;

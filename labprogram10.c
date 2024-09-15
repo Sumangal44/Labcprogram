@@ -1,20 +1,21 @@
-// claculate the  factorial of n number?? 
+//check any number is perfect or not
 #include <stdio.h>
 #include <conio.h>
-
-void main() {
-   int n,i, f ; 
-    // clrscr();
-    printf("Enter the value of n :  ");
-    scanf("%d", &n);
-    f= 1;
-    for (i = 1; i <= n; i++)
+#include <math.h>
+void main()
+{
+    int n ,p;
+    clrscr();
+    printf("Enter the number: ");
+    scanf("%d",&n);
+    p= sqrt(n);
+    if (p*p==n)
     {
-       f *= i;
+        printf("%d is perfect squre",n);
     }
-    printf("%d factorial is %d",n,f);
-
-     
-    getch ();
+    else
+    {
+        printf("%d is not perfect squre ",n);
+    }
+    getch();        
 }
-    

@@ -4,7 +4,7 @@
 
 void main() {
 int n ;
-  //clrscr();
+  clrscr();
   printf("enter the number ");
   scanf("%d",&n);
   if(n%2==0)
